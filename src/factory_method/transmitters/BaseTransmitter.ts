@@ -7,7 +7,7 @@ export abstract class BaseTransmitter implements Transmitter {
   ) {}
 
   private get fullName(): string {
-    return `${this.name} connector`
+    return `${this.name} transmitter`
   }
 
   protected abstract sendData(data: string): Promise<boolean>
