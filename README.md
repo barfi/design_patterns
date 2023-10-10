@@ -1,0 +1,3 @@
+# Design patterns examples
+
+For learning purposes only...
